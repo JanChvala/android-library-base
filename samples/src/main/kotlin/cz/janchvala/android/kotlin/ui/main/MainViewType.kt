@@ -1,0 +1,10 @@
+package cz.janchvala.android.kotlin.ui.main
+
+import jp.satorufujiwara.binder.ViewType
+
+public enum class MainViewType : ViewType {
+
+    REPO;
+
+    override fun viewType(): Int = ordinal
+}

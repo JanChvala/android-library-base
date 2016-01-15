@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+
+.gradle
+/local.properties
+
+.idea/**
+!.idea/codeStyleSettings.xml
+!.idea/vcs.xml
+!.idea/runConfigurations
+!.idea/runConfigurations/*
+*.iml
+
+/build
+/captures
